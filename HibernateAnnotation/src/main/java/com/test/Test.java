@@ -12,9 +12,9 @@ public class Test {
 		session.beginTransaction();
 		
 		User user = new User();
-		user.setUserId(3);
-		user.setUserName("Pranit");
-		user.setCreateBy("Amazon");
+		user.setUserID(1);
+		user.setUserName("pranit");
+		user.setCreateBy("flipcart");
 		user.setCreateByDate(new Date());
 		
 		session.save(user);
